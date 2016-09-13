@@ -1,0 +1,33 @@
+.home-banner {
+    width: 100%;
+    height: 97vh;
+    /*background: #000 url("../img/cur_home.png")5% center;*/
+    background-size: cover;
+    overflow: hidden;
+
+
+
+
+    background: linear-gradient(to bottom, rgba(0,0,0, 0), rgba(1 ,0,0, 0.7)),url('../img/cur_home.png') 90%/100%;
+}
+
+.app-container{
+    height:95vh;
+}
+
+.page-container{
+    margin-top: 50px;
+}
+.banner-bang h3{
+
+    font-size: 6em;
+    margin-right: 89px;
+    color-interpolation: linearrgb;
+    color: antiquewhite;
+
+}
+.banner-bang button{
+    margin-right: 89px;
+}
+
+
