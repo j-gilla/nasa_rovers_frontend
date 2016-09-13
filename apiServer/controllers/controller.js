@@ -17,7 +17,7 @@ module.exports = {
 function getAllRovers(callback) {
   CacheModel.findOne({input: 'getAll'}, function (err, data) {
     if(data){
-      return callback(null, data);
+      return callback(null, data.body);
     }
 
     axios.get(`https://api.nasa.gov/mars-photos/api/v1/rovers?api_key=${config.key}`)
