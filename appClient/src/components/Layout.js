@@ -6,13 +6,8 @@ var Layout = React.createClass({
     return (
       <nav className="navbar navbar-inverse navbar-fixed-top">
         <div className="container">
-          <div className="navbar-header">ƒƒ
-            <button>
-              <span className="sr-only">Toggle navigation</span>ƒ
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>ƒ
-            </button>
+          <div className="navbar-header">
+
             <a className="navbar-brand" href="#">Project name</a>
           </div>
           <div id="navbar" className="collapse navbar-collapse">
